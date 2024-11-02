@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Sales Report</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Retail Sales Report</h1>
+
+    <h2>Charts</h2>
+    <div id="chart1"></div>
+    <div id="chart2"></div>
+    <div id="chart3"></div>
+
+    <script>
+        var graph1 = {{ graph1JSON | safe }};
+        var graph2 = {{ graph2JSON | safe }};
+        var graph3 = {{ graph3JSON | safe }};
+        Plotly.newPlot('chart1', graph1.data, graph1.layout);
+        Plotly.newPlot('chart2', graph2.data, graph2.layout);
+        Plotly.newPlot('chart3', graph3.data, graph3.layout);
+    </script>
+</body>
+</html>

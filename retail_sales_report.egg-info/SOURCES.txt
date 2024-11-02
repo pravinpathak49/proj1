@@ -1,0 +1,11 @@
+README.md
+setup.py
+RetailAnalytics/__init__.py
+RetailAnalytics/app.py
+RetailAnalytics/generate_sales_data.py
+retail_sales_report.egg-info/PKG-INFO
+retail_sales_report.egg-info/SOURCES.txt
+retail_sales_report.egg-info/dependency_links.txt
+retail_sales_report.egg-info/entry_points.txt
+retail_sales_report.egg-info/requires.txt
+retail_sales_report.egg-info/top_level.txt
